@@ -1,0 +1,38 @@
+.two {
+    @include flexCenter;
+    flex-direction: column;
+    gap: 3rem;
+    color: #ffffff;
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    form {
+        width: 80%;
+        height: 3.3rem;
+        @include flexCenter;
+        #searchbar {
+            background-color: #ffffff;
+            border: none;
+            width: 80%;
+            height: 3.3rem;
+            padding-left: 1rem;
+        }
+        #searchbar:focus
+        {
+            outline: none;
+        }
+        button {
+            width: 20%;
+            height: 3.3rem;
+            border: none;
+            background-color: $secondaryColor;
+            color: #ffffff;
+            opacity: 90%;
+        }
+        button:hover {
+            opacity: 100%;
+        }
+    }
+}

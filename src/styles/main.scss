@@ -1,0 +1,34 @@
+@import "./variables";
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body {
+    background-color: $bgColor;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+@import "./one";
+@import "./two";
+@import "./three";
+
+@import "./mobile";
+.hide 
+{
+    display: none;
+}
+
