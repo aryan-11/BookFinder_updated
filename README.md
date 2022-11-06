@@ -6,7 +6,7 @@ An Api based app that search books for you, this project was done in Js for a st
 
 
 ### Website link
-bookfinder-aryan-s2i.netlify.app
+https://bookfinder-aryan-s2i.netlify.app/
 
 
 ### Built With
