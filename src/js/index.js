@@ -1,10 +1,10 @@
 import axios from "axios";
 import _ from 'lodash';
-import './styles/main.scss';
+import '../styles/main.scss';
 
-import {popupBtn, sceneOne, sceneTwo, sceneThree, input, form, category, title, description, wrapperResults} from './js/variables';
-import { getBooks } from './js/get_books.js';
-import { getDescription } from "./js/getDescription";
+import {popupBtn, sceneOne, sceneTwo, sceneThree, input, form, category, title, description, wrapperResults} from './variables';
+import { getBooks } from './get_books.js';
+import { getDescription } from "./getDescription";
 
 
 popupBtn.addEventListener("click", () => {
